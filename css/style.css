@@ -1,4 +1,6 @@
-.navbar, .navbar, .navbar-expand-md .navbar-light, .fixed-top {
+body {
+    background-color: white !important;
+}.navbar, .navbar, .navbar-expand-md .navbar-light, .fixed-top {
     background-color: rgb(255, 255, 255) !important;
     color: rgb(0, 0, 0) !important;
 }
