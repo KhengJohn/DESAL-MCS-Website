@@ -1,0 +1,137 @@
+.navbar, .navbar, .navbar-expand-md .navbar-light, .fixed-top {
+    background-color: rgb(255, 255, 255) !important;
+    color: rgb(0, 0, 0) !important;
+}
+.navbar-light .navbar-toggler {
+    
+    border-color: transparent
+     !important;
+}
+.navbar-toggler:focus {
+    
+    box-shadow: 0 0 0 0 !important;
+}
+
+.navbar-light .navbar-toggler:hover {
+    border-color: black !important;
+}
+
+.cardParagragh {
+    /* font-size: 11px !important; */
+    text-align: justify;
+    margin-bottom: 1px!important;
+}
+
+/* .cardParagragh:hover {
+    font-size: 22px !important;
+} */
+.cardParagraghLow {
+    text-align: justify;
+    font-size: 17px!important;
+    margin-top: 1px!important;
+}
+.cardParagragh2 {
+    /* font-size: 10px; */
+    text-align: justify
+}
+/* .cardParagragh2:hover {
+    font-size: 17px;
+} */
+
+.cardHead{
+}
+
+.card2 {
+    height: 100%;
+}
+
+.savingsDetails, .investmentDetails, .loanDetails {
+    text-align: justify;
+}
+
+.footerLink{
+    color: black !important;
+    text-decoration: none !important;
+    /* font-size: xx-small; */
+    padding-top: 0.3px !important;
+    padding-bottom: 0.3px !important;
+    margin-top: 0.3px !important;
+    margin-bottom: 0.3px !important;
+}
+
+.footerLinkHead {
+    color: rgb(196, 0, 0) !important;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: justify !important;
+    /* font-size: x-small; */
+}
+
+.slidein {
+    /* float:right; */
+    animation-duration: 7s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 105%;
+    }
+    to {
+        margin-left: 0%;
+    }
+
+    to {
+        margin-left: -50%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
+}
+.ourValue-List {
+    /* font-size: x-small; */
+}
+
+.ourValue-List:hover {
+color: red;
+transition: 0.3s ease-in-out;
+font-size: large;
+}
+/* @keyframes lP {
+    from {
+        margin-right: 0%;
+    }
+    to {
+        margin-right: 60%;
+    }
+} */
+
+.ourService-List {
+    font-size: 30px !important;
+}
+.wCU {
+    align-items: center;
+    justify-self: center;
+    justify-content: space-around;
+}
+.wCU-List {
+    /* background-color: white; */
+    /* margin: 10px; */
+    align-items: center;
+    border-radius: 20px;
+    /* color: black; */
+    padding: 20px;
+    text-align: justify;
+}
+
+.buttonn {
+    align-items: flex-start start !important;
+}
+@media (max-width:500px) {
+    img {
+        height: 250px;
+        width: 230px;
+    }
+    
+}
