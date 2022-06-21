@@ -51,8 +51,11 @@ body {
     text-align: justify;
 }
 
+.footerLinkHead {
+    font-weight: 700;
+}
 .footerLink{
-    color: black !important;
+    color: rgb(114, 114, 114) !important;
     text-decoration: none !important;
     /* font-size: xx-small; */
     padding-top: 0.3px !important;
@@ -61,7 +64,11 @@ body {
     margin-bottom: 0.3px !important;
 }
 
-.footerLinkHead {
+.footerLink:hover {
+    color: black !important;
+}
+
+.footerLinkHeadOffice {
     color: rgb(196, 0, 0) !important;
     text-decoration: none;
     font-weight: 700;
