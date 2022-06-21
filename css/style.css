@@ -135,5 +135,10 @@ font-size: large;
         height: 250px;
         width: 230px;
     }
+
+    .logo {
+        height: 80px !important;
+        width: 80px !important;
+    }
     
 }
