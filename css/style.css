@@ -53,8 +53,10 @@ body {
 
 .footerLinkHead {
     font-weight: 700;
+    font-size: small;
 }
 .footerLink{
+    font-size: smaller;
     color: rgb(114, 114, 114) !important;
     text-decoration: none !important;
     /* font-size: xx-small; */
@@ -62,6 +64,7 @@ body {
     padding-bottom: 0.3px !important;
     margin-top: 0.3px !important;
     margin-bottom: 0.3px !important;
+    text-align: justify !important;
 }
 
 .footerLink:hover {
@@ -73,7 +76,7 @@ body {
     text-decoration: none;
     font-weight: 700;
     text-align: justify !important;
-    /* font-size: x-small; */
+    font-size: x-small;
 }
 
 .slidein {
@@ -136,6 +139,17 @@ font-size: large;
 
 .buttonn {
     align-items: flex-start start !important;
+}
+
+.wEP {
+    line-height: 25px!important;
+    
+}
+.nav-link {
+    font-weight: 500;
+}
+.nav-link:hover {
+   font-size: 20px !important;
 }
 @media (max-width:500px) {
     img {
