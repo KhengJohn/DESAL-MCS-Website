@@ -230,13 +230,15 @@ img {
   text-transform: uppercase;
 }
 .about h2 {
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 600;
   color: #012970;
+  text-align: justify;
 }
 .about p {
   margin: 15px 0 30px 0;
   line-height: 24px;
+  text-align: justify;
 }
 .about .btn-read-more {
   line-height: 0;
